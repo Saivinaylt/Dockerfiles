@@ -1,5 +1,5 @@
 FROM almalinux:8
 ENV USERNAME=ADMIN  \
     PASSWORD=ADMIN123  \
-    PRTNUMBER=3360  \
+    PRTNUMBER=3360 \
     HOSTNAME=saivinay.com
