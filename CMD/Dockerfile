@@ -2,8 +2,5 @@ FROM almalinux:8
 RUN yum update -y
 RUN yum install nginx -y
 EXPOSE 80/tcp
-LABEL application=working  \
-      devops=yes  \
-      Env=prod
-CMD [ "google.com"]
-ENTRYPOINT [ "ping" , "-c5"]
+LABEL application="working"  
+CMD [ "nginx" , "-g" , "daemon off;"]
