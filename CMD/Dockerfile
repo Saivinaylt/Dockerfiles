@@ -6,4 +6,4 @@ WORKDIR /tmp/
 RUN echo "hello good morning" > hello.txt
 LABEL docker=practice  \
       justckeck=docker
-CMD [ "nginx" , "-g" , "daemon off;"]
+
