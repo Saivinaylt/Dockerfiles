@@ -5,4 +5,5 @@ RUN useradd saivinay
 USER saivinay
 WORKDIR /tmp/
 RUN touch hello.txt 
+CMD [ "nginx" , "-g" , "daemon off;"]
 
