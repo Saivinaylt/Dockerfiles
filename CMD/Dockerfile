@@ -5,5 +5,5 @@ EXPOSE 80/tcp
 LABEL application=working  \
       devops=yes  \
       Env=prod
-CMD [ "google.com" ,  "nginx" , "-g" , "daemon off;"]
+CMD [ "google.com"]
 ENTRYPOINT [ "ping" , "-c5"]
